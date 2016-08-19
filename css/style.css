@@ -3,6 +3,7 @@
 h1 { 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
+	font-style: italic;
 }
 
 p {
@@ -15,7 +16,7 @@ header {
     background-size: cover;
     color: white;
     font-weight: 300;
-    padding-bottom: 8%;
+    padding-bottom: 11%;
 }
 
 #logo {
