@@ -12,6 +12,12 @@ h2 {
 	font-style: italic;
 }
 
+h3 { 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
 p, li {
 	font-family: 'Roboto slab', helvetica;
 	font-weight: 100;
