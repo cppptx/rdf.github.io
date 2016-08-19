@@ -4,23 +4,27 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-style: italic;
+	font-color: #525659;
 }
 
 h2 { 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-style: italic;
+	font-color: #525659;
 }
 
 h3 { 
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-style: italic;
+	font-color: #525659;
 }
 
 p, li {
 	font-family: 'Roboto slab', helvetica;
 	font-weight: 100;
+	font-color: #525659;
 }
 
 header {
