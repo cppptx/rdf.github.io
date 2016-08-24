@@ -12,6 +12,9 @@
 <!-- My Styles -->
 <link rel="stylesheet" href="css/style.css">
 
+<!-- sidebar -->
+<link rel="stylesheet" href="css/sidebar.css">
+
 <!-- Custom Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
@@ -29,8 +32,8 @@
 
 <body>
 
-<header>
-    <div class="container text-center">
+<header>  
+   <div class="container text-center">
       <div class="row">
         <div class="col-xs-12">
         <a href="http://cppp.org"><img src="images/2015_COM_CPPP_logo_letterhead.png" id="logo"></a>
@@ -40,108 +43,117 @@
       </div>
     </div>
 </header>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 text-center">
-        <h1>A resource designed for Texas to use</h1>
-        <p>Everyone fortunate enough to have a savings account knows it’s a blessing during hard times. Texas is fortunate to have a large savings account in its Rainy Day Fund, created to prevent or reduce sudden massive cuts to schools, health care and other state services. Short-sighted tax cuts and diversions in recent legislative sessions mean that lawmakers have reduced General Revenue available to write the next state budget by at least $10.5 billion — independent of the drop in oil and gas prices. It’s too early in the state budget cycle to make any meaningful economic and state revenue forecasts through August 2019, but a clear understanding of the Fund is helpful at any stage of the budget process. Ideological arguments for not spending any of the Fund should not prevent state leaders from tapping the account if needed to maintain state services in 2018 and 2019.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container" >
-    <div class="row">
-      <div class="col-xs-12 col-sm-4">
-        <div class="media">
-          <div class="media-left"></div>
-          <div class="media-body">
-            <h2 class="media-heading">CPPP Recommends</h2>
-            	<div id="cppp-recs">
-            	<ul>
-                	<li>The Rainy Day Fund should be used as originally intended: to prevent sudden, massive cuts to schools, health care, higher education, and other services that rely on General Revenue.</li>
-                    <br>
-                    <li>The Legislature could also consider one-time appropriations from the Rainy Day Fund to reduce future liabilities.</li>
-                    <br>
-                    <li>The Legislature should reduce the “sufficient balance” to allow more extensive use of the Rainy Day Fund, as needed, without affecting the transfer to the State Highway Fund.</li>
-                    <br>
-                    <li>Since it is largely <a href="https://www.tribtalk.org/2016/07/05/dont-blame-oil-prices-for-budget-woes/">short-sighted tax cuts and diversions that have prompted concerns about the Texas economy</a>, lawmakers should resist calls for further tax cuts or revenue diversions.</li>
-				</ul>
-                </div>
-            </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-8">
-          <div class="media-body well">
-          <br>
-          <br>
-            <h3 class="media-heading">What is the Rainy Day Fund?</h3>
-            Since 1989, the <a href="http://codes.findlaw.com/tx/constitution-of-the-state-of-texas-1876/const-sect-49-g.html">State Constitution</a> has required that a portion of oil and gas production taxes go into the Economic Stabilization Fund (ESF), more commonly known as the Rainy Day Fund. Many states have a cash reserve, but <a href="http://www.nasbo.org/sites/default/files/Spring%202016%20Fiscal%20Survey%20of%20States-S.pdf">Texas has the largest in the country</a>. The Texas Constitution authorizes the Comptroller to make temporary transfers out of the Fund to make up for aGeneral Revenue deficit. With a supermajority vote, the legislature can also use the Rainy Day Fund as general revenue in the current or next budget cycle.
-            <br>
-            <br>
-            <h3 class="media-heading">How does money get into the Fund?</h3>
-            The Fund receives a transfer of at least one-half of 75 percent of the prior year’s oil and gas severance tax collections that exceed what each of those taxes generated in 1987. Starting with fiscal year 2015, the remainder of that 75 percent goes to the State Highway Fund. Before 2015 the Fund received all of the transfer. 
-            <br>
-            <br>
-            The Fund balance was $9.6 billion after the November 2015 transfer—a record high. Natural gas tax deposits were a major source of <a href="https://fmx.cpa.texas.gov/fmx/legis/esf/index.php">revenue growth </a> for the Fund from 2006 to 2009; oil severance taxes were more important from 2013 to 2015. 
-            <br>
-            <br>
-            <br>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section>
-	<div class="container">
-		<div class="row">
-        	<div class="col-lg-12 text-center">
-            	<h2>Latest Work</h2>
-            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
-            </div>
-        </div>
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#sec0">Section 0</a></li>
+          <li><a href="#sec1">Section 1</a></li>
+          <li><a href="#sec2">Section 2</a></li>
+          <li><a href="#sec3">Section 3</a></li>
+          <li><a href="#sec4">Section 4</a></li>
+        </ul>
+      </div><!--/left-->
+      
+      <!--right-->
+      <div class="col-md-9">
+        <h2 id="sec0">Content</h2>
+        <p>
+          At Bootply we like to build simple Bootstrap templates that utilize the code Bootstap CSS without a lot of customization. Sure you can 
+          find a lot of Bootstrap themes and inspiration, but these templates tend to be heavy on customization.</p>
+        
+        <hr>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.              
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!</p>
+        
+        <h2 id="sec1">Content</h2>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut.
+        </p>
         <div class="row">
-        	<div class="col-md-6 text-center">
-            	<img src="images/400x400.gif" alt="">
-                <h3>Lorem ipsum dolor sit amet, consectetur elit</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Hello.</h3></div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                Aliquam in felis sit amet augue.
+              </div>
             </div>
-        	<div class="col-md-6 text-center">
-            	<img src="images/400x400.gif" alt="">
-                <h3>Lorem ipsum dolor sit amet, consectetur elit</h3>
-                <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading"><h3>Hello.</h3></div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+                dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+                Aliquam in felis sit amet augue.
+              </div>
             </div>
+          </div>  
         </div>
+        
+        <hr>
+        
+        <h2 id="sec2">Section 2</h2>
+        <p>
+          Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut!
+        </p>
         <div class="row">
-        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
-        	<div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
-			<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
-        	<div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
-      </div>
-      <hr>
-        <div class="row">
-          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 text-center col-sm-6 col-xs-6"><img src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 text-center col-sm-6 col-xs-6 hidden-xs hidden-sm"><img src="images/200x200.gif" alt=""></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
+          <div class="col-md-4"><img src="//placehold.it/300x300" class="img-responsive"></div>
         </div>
-	</div>
-</section>
-<hr>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1>Lorem ipsum dolor sit amet</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
-		<button type="button" class="btn btn-success">Get in touch</button>
-      </div>
-    </div>
-  </div>
-</section>
-<hr>
+        
+        <hr>
+        
+        <h2 id="sec3">Section 3</h2>
+        <p>
+          Images are responsive sed @mdo but sum are more fun peratis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
+        <p>
+          Fos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut..</p>
+        
+        
+        <h2 id="sec4">Section 4</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+          totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+          dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia cor magni dolores 
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+          sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut.</p>
+        
+        <hr>
+        <h4><a href="http://www.bootply.com/Gygh9swISB">Edit on Bootply</a></h4>
+        <hr>
+
+        </div><!--/right-->
+  	</div><!--/row-->
+</div><!--/container-->
 <div class="section well">
     <div class="container">
    	  <div class="row">
@@ -184,5 +196,11 @@
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+<!-- sidebar js --> 
+<script src="js/style.js"></script>
+
+<!--bootply stuff -->
+
+
 </body>
 </html>
