@@ -27,6 +27,10 @@ p, li {
 	font-color: #525659;
 }
 
+a {
+	color: #02768B;
+}
+
 header {
 	background-image: url(../images/rainwindow.jpg);
     background-size: cover;
