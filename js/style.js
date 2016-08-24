@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
-/* activate sidebar 
+/* activate sidebar */
 $('#sidebar').affix({
   offset: {
-    top: 235
+    top: 400
   }
-});*/
+});
 
 /* activate scrollspy menu */
 var $body   = $(document.body);
-var navHeight = $('.navbar').outerHeight(true) + 10;
+var $content = $('#content').outerHeight(true) + 10;
 
 $body.scrollspy({
 	target: '#leftCol',
-	offset: navHeight
+	offset: sec0
 });
 
 /* smooth scrolling sections */
