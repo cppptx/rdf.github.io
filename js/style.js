@@ -3,8 +3,8 @@ $(document).ready(function(){
 /* activate sidebar */
 $('#sidebar').affix({
   offset: {
-    top: headerHeight,
-	bottom: footerHeight
+    top: 400,
+	bottom: 100
   }
 });
 
