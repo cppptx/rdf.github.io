@@ -4,7 +4,6 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-style: italic;
-	font-color: #525659;
 }
 
 h2 { 
@@ -38,7 +37,6 @@ a {
 header {
 	background-image: url(../images/rainwindow.jpg);
     background-size: cover;
-    color: white;
     font-weight: 300;
 	padding-bottom: 3%;
 }
@@ -51,10 +49,12 @@ header {
 header h1 {
 	font-size: 7em;
 	font-style: italic;
+	color: #02768B;
 }
 
 header p {
 	font-size: 1.3em;
+	color: white;
 }
 
 #cppp-recs {
