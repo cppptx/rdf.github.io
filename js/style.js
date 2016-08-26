@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
 /* activate sidebar */
+"use strict";
 $('#sidebar').affix({
   offset: {
-    top: 400,
-	bottom: 100
+    top: 400
   }
 });
 
