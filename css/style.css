@@ -61,7 +61,9 @@ header p {
 	border-radius: 5px;
 	background-color: #FFC407;
 	padding: 4px;
-	font-family: 'Roboto slab', Helvetica; 
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	font-weight: 700;
 }
 
 .cppp-recs {
