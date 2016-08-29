@@ -20,14 +20,14 @@ h3 {
 	font-color: #525659;
 }
 
+p { 
+	font-size: 1.2em;
+}
+
 p, li {
 	font-family: 'Roboto slab', helvetica;
 	font-weight: 100;
 	font-color: #525659;
-}
-
-p { 
-	font-size: 1.2em;
 }
 
 a {
@@ -61,7 +61,7 @@ header p {
 	border-radius: 5px;
 	background-color: #FFC407;
 	padding: 4px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto slab', Helvetica; 
 }
 
 .cppp-recs {
