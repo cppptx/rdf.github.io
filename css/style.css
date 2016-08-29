@@ -86,3 +86,37 @@ header p {
 	width: 80%;
 }
 
+#twitter-logo {
+	width: 14%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+
+@media (max-width: 991px) {
+	#twitter-logo {
+	width: 8%;
+}
+
+#instagram-logo {
+	width: 4.4%;
+}
+}
+
+@media (max-width: 414px) {
+	#twitter-logo {
+	width: 15%;
+}
+
+#instagram-logo {
+	width: 8%;
+}
+}
+
+@media (max-width: 414px) {
+	#fb-logo {
+	width: 8%;
+}
+}
+
