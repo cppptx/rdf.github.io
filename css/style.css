@@ -60,6 +60,7 @@ header p {
 #pdf-version a {
 	background-color: white;
 	padding: 5px;
+	margin: 2px;
 	border-radius: 10px;
 	font-family: 'Roboto', sans-serif;
 }
