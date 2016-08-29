@@ -1,4 +1,11 @@
 
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
 .navbar-bright {
  background-color:#111155;
  color:#fff;
@@ -6,10 +13,6 @@
 
 .affix-top,.affix{
  position: static;
-}
-
-#resource {
- z-index:-900;
 }
 
 @media (min-width: 979px) {
@@ -20,7 +23,7 @@
   }
   
   #sidebar.affix {
-    position: static;
+    position: fixed;
     top:70px;
     width:228px;
   }
@@ -29,10 +32,4 @@
 #sidebar li.active {
   border:0 #eee solid;
   border-right-width:5px;
-}
-
-@media screen and (min-width: 768px) {
-  #masthead h1 {
-    font-size: 50px;
-  }
 }

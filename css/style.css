@@ -57,14 +57,6 @@ header p {
 	color: white;
 }
 
-#pdf-version a {
-	background-color: white;
-	padding: 5px;
-	margin: 2px;
-	border-radius: 10px;
-	font-family: 'Roboto', sans-serif;
-}
-
 #cppp-recs {
 	background-color: #ffc407;
 	padding-right: 1%;
@@ -81,18 +73,3 @@ header p {
 	font-size: .85em;	
 }
 
-@media (max-width: 998px) {
-	h1 #sec0 {
-		padding-top: -50px;
-	}
-}
-
-@media (max-width: 418px) {
-	header h1 {
-		font-size: 4.5em;
-	}
-	
-	#logo {
-		width: 100%;
-	}
-}
