@@ -4,7 +4,8 @@ $(document).ready(function(){
 "use strict";
 $('#sidebar').affix({
   offset: {
-    top: 400
+    top: 400,
+	bottom: 400
   }
 });
 
