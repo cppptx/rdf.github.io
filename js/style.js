@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
 /* activate sidebar */
-"use strict";
 $('#sidebar').affix({
   offset: {
     top: 400,
