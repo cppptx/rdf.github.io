@@ -73,3 +73,12 @@ header p {
 	font-size: .85em;	
 }
 
+@media (max-width: 418px) {
+	header h1 {
+		font-size: 6em;
+	}
+	
+	#logo {
+		width: 100%;
+	}
+}
