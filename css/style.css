@@ -102,7 +102,12 @@ header p {
 }
 
 @media (max-width: 991px) {
-	#twitter-logo {
+#logo {
+	margin-top: 10%;
+	width: 60%;
+}
+
+#twitter-logo {
 	width: 8%;
 }
 
@@ -117,7 +122,12 @@ header p {
 }
 
 @media (max-width: 414px) {
-	#twitter-logo {
+#logo {
+	margin-top: 10%;
+	width: 90%;
+}
+
+#twitter-logo {
 	width: 15%;
 }
 
